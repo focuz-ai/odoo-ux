@@ -26,7 +26,7 @@ This repository provides UX enhancement modules for Odoo:
 
 | Module | Version | License | Description |
 |--------|---------|---------|-------------|
-| `server_action_mass_edit` | 18.0.1.1.1 | AGPL-3 | Mass editing of records via server actions |
+| `server_action_mass_edit` | 18.0.1.1.4 | AGPL-3 | Mass editing of records via server actions |
 | `server_action_mass_edit_onchange` | 18.0.1.1.1 | AGPL-3 | Onchange support for mass editing |
 | `one2many_search_widget` | 18.0.1.0.0 | AGPL-3 | Quick search in One2many fields |
 | `onchange_helper` | 18.0.1.0.1 | LGPL-3 | Execute onchange methods in Python code |
