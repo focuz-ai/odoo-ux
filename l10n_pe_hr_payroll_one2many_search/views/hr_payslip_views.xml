@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <record id="view_hr_payslip_form" model="ir.ui.view">
+        <field name="name">hr.payslip.form.inherit.l10n_pe_hr_payroll_one2many_search</field>
+        <field name="model">hr.payslip</field>
+        <field name="inherit_id" ref="hr_payroll.view_hr_payslip_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//notebook/page/field[@name='input_line_ids']" position="attributes">
+                <attribute name="widget">one2many_search</attribute>
+            </xpath>
+            <xpath expr="//notebook/page/field[@name='line_ids']" position="attributes">
+                <attribute name="widget">one2many_search</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>
